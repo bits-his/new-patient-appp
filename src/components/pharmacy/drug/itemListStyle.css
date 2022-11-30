@@ -1,0 +1,55 @@
+:root {
+  --primaryColor: rgb(64, 76, 241);
+  --secondaryColor: rgb(121, 152, 219);
+}
+.add {
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.item-quantity {
+  display: inline-block;
+  margin: 0 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.q-div {
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.plus,
+.minus {
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  width: 25%;
+  font-weight: bold;
+}
+
+.plus {
+  float: right;
+}
+
+.minus {
+  float: left;
+}
+
+.cart-left-card,
+.cart-right-card {
+  border: none;
+}
+
+.trash {
+  float: right;
+  padding: 10px;
+}

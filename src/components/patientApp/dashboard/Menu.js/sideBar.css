@@ -1,0 +1,45 @@
+.side-bar {
+    /* background-color: #C1863E; */
+    background-color: #e9e9e9;
+    border-right: 1px solid #afafaf;
+    margin: 0;
+    height: 100vh;
+}
+
+.coups {
+    cursor: pointer;
+    margin: 0;
+    padding: 5px;
+    /* width: 100%; */
+}
+
+.coups:hover {
+    cursor: pointer;
+    background-color: #2CC2D8;
+    margin: 0;
+    padding: 5px;
+    color: #ffffff;
+    /* width: 100%; */
+}
+
+
+.coups-active {
+    cursor: pointer;
+    background-color: #1D89E4;
+    padding: 5px;
+    margin: 0;
+    color: #ffffff;
+    /* width: 100%; */
+}
+
+.btn {
+    background-color: rgb(255, 195, 84);
+}
+
+.pay {
+    cursor: pointer;
+}
+
+.icon {
+    /* color: red; */
+}

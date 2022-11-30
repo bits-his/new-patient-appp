@@ -1,0 +1,51 @@
+/*
+Assumptions:
+  Sum of all slices is 100%
+  Only slice1  can be >50%
+*/
+.piechart {
+    position: relative;
+  width: 300px;
+    margin: 10px auto;
+  }
+  .piechart div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    clip: rect(0px, 300px, 300px, 150px);
+  }
+  .piechart > div:first-child {
+    box-shadow: 2px 2px 2px #555;
+    clip: auto;
+  }
+  .piechart div div {
+    clip: rect(0px, 150px, 300px, 0px);
+  }
+  .piechart .doughnut {
+    top: 18.75px;
+    left: 18.75px;
+    background: white;
+    width: 112.5px;
+    height: 112.5px;
+    box-shadow: inset 2px 2px 2px #555;
+    display: block;
+    clip: auto;
+  }
+  
+  #slice1 {
+    background: #88dd22;
+  }
+  
+  #slice2 {
+    -webkit-transform: rotate(216deg);
+  }
+  
+  #slice2 .pie {
+    background-color: #ee8800;
+    -webkit-transform: rotate(90deg);
+  }
+  
+  
